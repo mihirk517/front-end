@@ -1,14 +1,7 @@
 # front-end
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the Vue.js front-end for a full stack application whose backend is built in FastApi and can be found https://github.com/mihirk517/FastApi
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 

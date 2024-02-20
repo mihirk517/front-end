@@ -1,6 +1,6 @@
 # front-end
 
-This is the Vue.js front-end for a full stack application whose backend is built in FastApi and can be found https://github.com/mihirk517/FastApi
+This is the Vue.js front-end for a full stack application whose backend is built in C# .NET WebAPI 2 and can be found https://github.com/mihirk517/Backend-WebAPI
 
 
 ## Project Setup

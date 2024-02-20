@@ -1,29 +1,15 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Navbar from "./components/Navbar.vue"
 </script>
 
 <template>
-
-    <div id="app"> 
-      
-      
+    <div id="app">
+      <Navbar />      
     </div>
-  
-
   <RouterView />
 </template>
 
 <style>
-body {
-  height: 100%;
-}
 
-body {
- 
-  align-items: center;
-  
-  
-  justify-content: center;
-  background-color: #f5f5f5;
-}
 </style>

@@ -2,10 +2,7 @@
     <body class="text-center">        
     <main class="form-signin">
     <form>
-        <img class="img-fluid" src="../assets/logo.svg" alt="" width="72" height="57">
-        <br>
-        <br>
-        <h1 class="h3 mb-3 fw-normal text-center">Ceate a New Post</h1>
+    <h1 class="h3 mb-3 fw-normal text-center">Create a New Post</h1>
 
 
 
@@ -69,8 +66,8 @@ export default {
                 {headers: {'content-type': 'application/json'}})
                 console.log(response.data)
 
-                if (response.status == 201) {
-                    this.response = "User created sucessfully"
+                if (response.status == 200) {
+                    this.response = "Post created sucessfully"
                     await this.$router.push('/posts')
                     
                 }
